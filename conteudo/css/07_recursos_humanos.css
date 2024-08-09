@@ -50,6 +50,7 @@
     padding-bottom: 15%;
     top: 100px;
 }
+
 /* 
 .bloco2 .container {
     padding-top: 6%;
@@ -176,7 +177,7 @@ table.senac {
 }
 
 /*---------- inicio painel equipe----------*/
-.painel-equipe{
+.painel-equipe {
     background: url('../images/07_recursos_humanos/img-painel.png')no-repeat;
     width: 396px;
     height: 462px;
@@ -184,7 +185,7 @@ table.senac {
     margin-left: 15%;
 }
 
-.btn-equipe1{
+.btn-equipe1 {
     background: url('../images/07_recursos_humanos/bt01.png')no-repeat;
     width: 254px;
     height: 86px;
@@ -194,7 +195,7 @@ table.senac {
     margin-top: -10%;
 }
 
-.btn-equipe2{
+.btn-equipe2 {
     background: url('../images/07_recursos_humanos/bt02.png')no-repeat;
     width: 254px;
     height: 87px;
@@ -204,7 +205,7 @@ table.senac {
     margin-top: -1%;
 }
 
-.btn-equipe3{
+.btn-equipe3 {
     background: url('../images/07_recursos_humanos/bt03.png')no-repeat;
     width: 254px;
     height: 89px;
@@ -214,7 +215,7 @@ table.senac {
     margin-top: 13%;
 }
 
-.btn-equipe4{
+.btn-equipe4 {
     background: url('../images/07_recursos_humanos/bt04.png')no-repeat;
     width: 254px;
     height: 88px;
@@ -224,7 +225,7 @@ table.senac {
     margin-top: 27%;
 }
 
-.btn-equipe5{
+.btn-equipe5 {
     background: url('../images/07_recursos_humanos/bt05.png')no-repeat;
     width: 254px;
     height: 88px;
@@ -234,7 +235,7 @@ table.senac {
     margin-top: 41%;
 }
 
-.btn-equipe6{
+.btn-equipe6 {
     background: url('../images/07_recursos_humanos/bt06.png')no-repeat;
     width: 254px;
     height: 88px;
@@ -257,7 +258,7 @@ table.senac {
 
 /*---------- fim painel equipe----------*/
 
-.citacao p{
+.citacao p {
     margin-left: 25%;
     font-size: 1em !important;
     line-height: 1em;
@@ -289,7 +290,7 @@ h3 {
 h4 {
     color: #1e86ab !important;
     font-weight: bold;
-} 
+}
 
 li {
     margin-bottom: 0.8em;
@@ -502,9 +503,7 @@ a,
 }
 
 
-@media (max-width: 1400px) {
-
-}
+@media (max-width: 1400px) {}
 
 
 @media (max-width: 1370px) {
@@ -529,7 +528,7 @@ a,
 
     .bloco1 .container {
         padding-top: 3%;
-        padding-bottom: 5%;
+        padding-bottom: 15%;
         margin-top: -11%;
     }
 
@@ -560,6 +559,48 @@ a,
         position: relative;
         z-index: 1003;
     }
+
+    .painel-equipe {
+        margin-left: 0;
+    }
+
+    .btn-equipe6 {
+        margin-top: 63%;
+        transform: scale(0.9);
+    }
+
+    .btn-equipe5 {
+        margin-left: 43%;
+        margin-top: 53%;
+        transform: scale(0.9);
+    }
+
+    .btn-equipe4 {
+        margin-left: 52%;
+        margin-top: 37%;
+        transform: scale(0.9);
+    }
+
+    .btn-equipe3 {
+        margin-left: 53%;
+        margin-top: 17%;
+        transform: scale(0.9);
+    }
+
+    .btn-equipe2 {
+        margin-left: 46%;
+        margin-top: 1%;
+        transform: scale(0.9);
+    }
+
+    .btn-equipe1 {
+        margin-left: 12%;
+        margin-top: -12%;
+        transform: scale(0.9);
+    }
+
+
+
 }
 
 @media (max-width: 768px) {
@@ -575,7 +616,7 @@ a,
 
     .bloco1 .container {
         padding-top: 3%;
-        padding-bottom: 5%;
+        padding-bottom: 13%;
         margin-top: -12%;
     }
 
@@ -592,6 +633,31 @@ a,
         top: -13px;
         position: absolute;
         filter: drop-shadow(#333 3px 3px 4px);
+    }
+
+    .painel-equipe {
+        width: 100%;
+        /* Para ajustar o painel ao tamanho do dispositivo */
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        /* Opcional para adicionar algum espaçamento interno */
+        background: unset;
+    }
+
+    .btn-equipe1,
+    .btn-equipe2,
+    .btn-equipe3,
+    .btn-equipe4,
+    .btn-equipe5,
+    .btn-equipe6 {
+        position: static;
+        /* Remover a posição absoluta */
+        margin: 10px auto;
+        /* Centralizar os botões e adicionar margem entre eles */
+        display: block;
+        width: 254px;
+        /* Ajustar a largura dos botões */
     }
 }
 
