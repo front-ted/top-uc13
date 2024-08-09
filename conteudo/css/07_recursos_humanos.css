@@ -47,10 +47,10 @@
 
 .bloco1 .container {
     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     top: 100px;
 }
-
+/* 
 .bloco2 .container {
     padding-top: 6%;
     margin-top: -5%;
@@ -64,7 +64,7 @@
     margin-top: -5%;
     position: relative;
     z-index: 1003;
-}
+} */
 
 
 .modal {
@@ -244,19 +244,6 @@ table.senac {
     margin-top: 49%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .btn-equipe1:hover,
 .btn-equipe2:hover,
 .btn-equipe3:hover,
@@ -269,6 +256,12 @@ table.senac {
 
 
 /*---------- fim painel equipe----------*/
+
+.citacao p{
+    margin-left: 25%;
+    font-size: 1em !important;
+    line-height: 1em;
+}
 
 
 figcaption {
