@@ -2,7 +2,6 @@
     background: linear-gradient(to bottom, #fff, #C1E3E5);
 }
 
-
 .container {
     background-color: auto;
     position: relative;
@@ -26,22 +25,6 @@
 .botao-pdf:hover {
     transform: scale(1.1);
 }
-
-/* 
-.bloco2 .container {
-    padding-top: 6%;
-    margin-top: -5%;
-    position: relative;
-    z-index: 1003;
-    padding-bottom: 6%;
-}
-
-.bloco3 .container {
-    padding-top: 6%;
-    margin-top: -5%;
-    position: relative;
-    z-index: 1003;
-} */
 
 
 .modal {
@@ -251,21 +234,6 @@ figcaption {
 iframe {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-h2 {
-    color: #1e86ab;
-    font-weight: bold;
-}
-
-h3 {
-    color: #4d4d4d;
-    font-weight: bold;
-}
-
-h4 {
-    color: #1e86ab !important;
-    font-weight: bold;
 }
 
 li {
@@ -515,13 +483,13 @@ a,
 
 li {
     margin-bottom: 0.8em;
-    list-style: none; 
+    list-style: none;
     background-image: url('../images/07_recursos_humanos/marcador.svg');
     background-repeat: no-repeat;
-    background-position: left center; 
+    background-position: left center;
     padding-left: 55px;
     background-size: 40px;
-  }
+}
 
 
 
@@ -531,9 +499,6 @@ li {
         width: 1184px;
     }
 }
-
-
-@media (max-width: 1400px) {}
 
 
 @media (max-width: 1370px) {
@@ -678,11 +643,9 @@ li {
 
     .painel-equipe {
         width: 100%;
-        /* Para ajustar o painel ao tamanho do dispositivo */
         height: auto;
         margin: 0 auto;
         padding: 10px;
-        /* Opcional para adicionar algum espaçamento interno */
         background: unset;
     }
 
@@ -693,12 +656,9 @@ li {
     .btn-equipe5,
     .btn-equipe6 {
         position: static;
-        /* Remover a posição absoluta */
         margin: 10px auto;
-        /* Centralizar os botões e adicionar margem entre eles */
         display: block;
         width: 254px;
-        /* Ajustar a largura dos botões */
     }
 
     .mobile {
@@ -771,7 +731,6 @@ li {
         max-width: 35%;
         margin-bottom: 3%;
     }
-
 }
 
 
