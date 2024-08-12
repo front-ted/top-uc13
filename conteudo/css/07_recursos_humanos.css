@@ -513,7 +513,15 @@ a,
     height: 186px;
 }
 
-
+li {
+    margin-bottom: 0.8em;
+    list-style: none; 
+    background-image: url('../images/07_recursos_humanos/marcador.svg');
+    background-repeat: no-repeat;
+    background-position: left center; 
+    padding-left: 55px;
+    background-size: 40px;
+  }
 
 
 
