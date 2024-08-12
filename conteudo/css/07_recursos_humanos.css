@@ -472,8 +472,8 @@ a,
     filter: drop-shadow(#333 3px 3px 4px);
 }
 
-.selo {
-    max-width: 60%;
+.selo-presencialidade {
+    max-width: 40%;
     margin-bottom: 3%;
 }
 
@@ -718,7 +718,7 @@ a,
         filter: drop-shadow(#333 3px 3px 4px);
     }
 
-    .selo {
+    .selo-presencialidade {
         max-width: 35%;
         margin-bottom: 3%;
     }
