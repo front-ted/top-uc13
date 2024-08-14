@@ -1,3 +1,13 @@
+.paginas{
+    background: url('../images/06/bg_dir.png') right, url('../images/06/bg_esq.png') left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.divisoria{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 .container {
     background-color: #ffffff;
     position: relative;
@@ -9,24 +19,10 @@
 
 .bloco1 .container {
     padding-top: 3%;
-    padding-bottom: 5%;
-    top: 100px;
+    padding-bottom: 3%;
+    top: 5px;
 }
 
-.bloco2 .container {
-    padding-top: 6%;
-    margin-top: -5%;
-    position: relative;
-    z-index: 1003;
-    padding-bottom: 6%;
-}
-
-.bloco3 .container {
-    padding-top: 6%;
-    margin-top: -5%;
-    position: relative;
-    z-index: 1003;
-}
 
 .img-menor {
     display: block;
@@ -522,11 +518,24 @@ table.senac{
     width: 66%;
 }
 
+.gaitinha .panel.panel-default .panel-heading .panel-title a {
+    border: 2px solid #0b3b4b !important;
+    color: black !important;
+    border-radius: 20px;
+    padding: 1.2rem;
+}
 
+.gaitinha .panel.panel-default .panel-heading .panel-title a.collapsed {
+    background: #0b3b4b !important;
+    color: #ffff !important;
+}
 
-
-
-
+.gaitinha .panel.panel-default .panel-body {
+    border: 0;
+    border-left: 2px solid #0b3b4b !important;
+    margin-left: 20px;
+    margin-top: 3px;
+}
 
 
 
@@ -574,7 +583,7 @@ table.senac{
     .bloco1 .container {
         padding-top: 3%;
         padding-bottom: 5%;
-        margin-top: -11%;
+        margin-top: 4%;
     }
 
     .img-zoom1::after {
@@ -588,20 +597,13 @@ table.senac{
         filter: drop-shadow(#333 3px 3px 4px);
     }
 
-    .bloco2 .container {
-        padding-top: 6%;
-        margin-top: 0%;
-    }
-
     .bloco1 .container {
         margin-bottom: 105px;
     }
 
-    .bloco3 .container {
-        padding-top: 6%;
-        margin-top: 1%;
-        position: relative;
-        z-index: 1003;
+
+    .paginas{
+        background: unset;
     }
 }
 
@@ -619,7 +621,7 @@ table.senac{
     .bloco1 .container {
         padding-top: 3%;
         padding-bottom: 5%;
-        margin-top: -12%;
+        margin-top: 4%;
     }
 
 }
@@ -653,16 +655,6 @@ table.senac{
 @media (max-width: 420px) {
 
 
-    .bloco2 .container {
-        padding-top: 6%;
-        margin-top: 0%;
-    }
-
-    .bloco3 .container {
-        padding-top: 6%;
-        margin-top: 0;
-    }
-
     .bloco1 .container {
         margin-bottom: 100px;
     }
@@ -685,7 +677,6 @@ table.senac{
         padding-left: 30px;
         padding-right: 30px;
     }
-
 
     .selo {
         max-width: 35%;
