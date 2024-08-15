@@ -1,13 +1,14 @@
-.paginas{
+.paginas {
     background: url('../images/06/bg_dir.png') right, url('../images/06/bg_esq.png') left;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.divisoria{
+.divisoria {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
 .container {
     background-color: #ffffff;
     position: relative;
@@ -328,20 +329,174 @@ li {
     margin-bottom: 0.8em;
 }
 
+
+.caixa-especial {
+    background: url('../images/06/destaque_importante.png') no-repeat;
+    width: 873px;
+    height: 206px;
+    position: relative;
+}
+
+.caixa-especial p {
+    color: #fff;
+    padding: 30px 11px 48px 104px;
+}
+
+.importante2 {
+    background: url('../images/importante.png') no-repeat;
+    width: 157px;
+    height: 156px;
+    position: absolute;
+    top: 30px;
+    left: -70px;
+}
+
+.caixa-especial2 {
+    background: url('../images/06/destaqiue_exemplo.png') no-repeat;
+    width: 873px;
+    height: 326px;
+    position: relative;
+}
+
+.caixa-especial2 p {
+    color: #fff;
+    padding: 15px 7px 0px 104px;
+}
+
+.exemplo2 {
+    background: url('../images/fundamental.png') no-repeat;
+    width: 156px;
+    height: 156px;
+    position: absolute;
+    top: 78px;
+    left: -70px;
+}
+
+.caixa-especial3 {
+    background: url('../images/06/destaque_importante.png') no-repeat;
+    width: 873px;
+    height: 206px;
+    position: relative;
+}
+
+.caixa-especial3 li {
+    color: #fff;
+    padding: 9px 10px 1px 0px;
+}
+
 .caixa-destaque,
 .caixa-destaque-livre {
     background-color: #0b3b4b;
-    color: #fff;
 }
 
-.caixa-destaque {
-    width: 100%;
+.caixa-destaque p {
+    color: #ffff;
+}
+
+.painel-alicerces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-missao {
+    background: url('../images/06/painel1_bt1.png') no-repeat;
+    width: 258px;
+    height: 279px;
+    border: none !important;
+    margin: 10px;
+}
+
+.btn-missao:hover {
+    transform: scale(1.1);
+}
+
+.btn-visao {
+    background: url('../images/06/painel1_bt2.png') no-repeat;
+    width: 242px;
+    height: 265px;
+    border: none !important;
+    margin: 10px;
+}
+
+.btn-visao:hover {
+    transform: scale(1.1);
+}
+
+.btn-valores {
+    background: url('../images/06/painel1_bt3.png') no-repeat;
+    width: 265px;
+    height: 264px;
+    border: none !important;
+    margin: 10px;
+}
+
+.btn-valores:hover {
+    transform: scale(1.1);
 }
 
 .caixa-destaque1 {
     background-color: #0086ad;
     color: #fff;
 }
+
+.painel-4ps{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os botões quebrem a linha */
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-produto{
+
+    width: 280px;
+    height: 316px;
+}
+
+.btn-produto:hover{
+    transform: scale(1.1);
+}
+
+.btn-preco{
+    background: url('../images/06/painel2_bt2.png') no-repeat;
+    width: 280px;
+    height: 316px;
+}
+
+.btn-preco:hover{
+    transform: scale(1.1);
+}
+
+.btn-praca{
+    background: url('../images/06/painel2_bt3.png') no-repeat;
+    width: 280px;
+    height: 316px;
+}
+
+.btn-praca:hover{
+    transform: scale(1.1);
+}
+
+.btn-promocao{
+    background: url('../images/06/painel2_bt4.png') no-repeat;
+    width: 280px;
+    height: 316px;
+}
+
+.btn-promocao:hover{
+    transform: scale(1.1);
+}
+
+.btn-produto, .btn-preco, .btn-praca, .btn-promocao {
+    width: calc(40% - 20px); 
+    margin: 10px; 
+    border: none !important;
+    transition: transform 0.2s;}
+
+
+
+
+
 
 .caixa-destaque1 {
     padding: 2em;
@@ -514,7 +669,7 @@ table.senac td {
     font-weight: unset;
 }
 
-table.senac{
+table.senac {
     width: 66%;
 }
 
@@ -602,9 +757,31 @@ table.senac{
     }
 
 
-    .paginas{
+    .paginas {
         background: unset;
     }
+
+    .painel-alicerces {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .btn-missao,
+    .btn-visao,
+    .btn-valores {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+
+    .btn-produto, .btn-preco, .btn-praca, .btn-promocao {
+        width: calc(50% - 20px);
+        margin: 10px;
+        border: none !important;
+        transition: transform 0.2s;
+    }
+
+
 }
 
 @media (max-width: 768px) {
@@ -650,6 +827,22 @@ table.senac{
         position: absolute;
         filter: drop-shadow(#333 3px 3px 4px);
     }
+    .btn-missao, .btn-visao, .btn-valores {
+        width: 100%;
+        max-width: 255px;
+        margin: 10px 0;
+    }
+    .painel-4ps {
+        flex-direction: column; /* Alinha os botões em uma coluna */
+        align-items: center; /* Centraliza os botões na tela */
+    }
+
+    .btn-produto, .btn-preco, .btn-praca, .btn-promocao {
+        width: 79%; /* Faz os botões ocuparem a largura total do contêiner */
+        margin: 10px 0; /* Espaçamento entre os botões no modo coluna */
+    }
+
+
 }
 
 @media (max-width: 420px) {
@@ -690,5 +883,9 @@ table.senac{
     .container {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .btn-produto, .btn-preco, .btn-praca, .btn-promocao {
+        width: 81%;
+        margin: 10px 0;
     }
 }
