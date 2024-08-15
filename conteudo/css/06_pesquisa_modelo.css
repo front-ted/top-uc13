@@ -448,7 +448,7 @@ li {
 }
 
 .btn-produto{
-
+    background: url('../images/06/painel2_bt1.png') no-repeat;
     width: 280px;
     height: 316px;
 }
