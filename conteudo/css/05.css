@@ -1,0 +1,176 @@
+body{
+    background-image: url(../images/05/bg.png);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.caixa-destaque{
+    background-image: url(../images/05/destaque.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: transparent;
+}
+.gaitinha .panel.panel-default .panel-heading .panel-title a.collapsed {
+    background: #0b3b4b !important;
+    color: #fff !important;
+}
+.gaitinha .panel.panel-default .panel-heading .panel-title a {
+    border: 2px solid #0b3b4b !important;
+    background-color: #3a6472;
+    color: #fff !important;
+
+}
+.gaitinha .panel.panel-default .panel-body {
+    border-left: 2px solid #0b3b4b !important;
+}
+.painel-tecnicas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-bt01,.btn-bt02{
+    width: 179px;
+    height: 179px;
+    background-color: transparent;
+  border: none;
+}
+.btn-bt01{
+    margin-right: 10px;
+    background-image: url(../images/05/bt01.png);    
+}
+.btn-bt01:hover{
+    background-image: url(../images/05/bt01b.png);    
+}
+.btn-bt02{
+    margin-left: 10px;
+    background-image: url(../images/05/bt02.png);    
+}
+.btn-bt02:hover{
+    background-image: url(../images/05/bt02b.png);    
+}
+
+
+.painel-beneficios{
+    position: relative;
+    margin: 120px auto 0px auto;
+    width: 100%;
+    max-width: 743px;
+    height: 600px;
+
+}
+.img-beneficios{
+        max-width: 400px;
+        width: 52%;
+}
+.info1-bt01, .info1-bt02, .info1-bt03, .info1-bt04, .info1-bt05{
+    background-size: 100%;
+  background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s all ease-in-out;
+
+}
+
+.info1-bt01:hover, .info1-bt02:hover, .info1-bt03:hover, .info1-bt04:hover, .info1-bt05:hover{
+    transform: scale(1.1);
+}
+.info1-bt01{
+    background-image: url('../images/05/infog01/bt01i.png');
+    width: 250px;
+    height: 76px;
+    position: absolute;
+    top: -90px;
+    left: 33%;
+}
+.info1-bt02{
+    background-image: url('../images/05/infog01/bt02i.png');
+    width: 251px;
+    height: 102px;
+    position: absolute;
+    top: 0px;
+    left: 49%;
+}
+.info1-bt03{
+    background-image: url('../images/05/infog01/bt03i.png');
+    width: 250px;
+    height: 104px;
+    position: absolute;
+    top: 170px;
+    left: 55%;
+}
+.info1-bt04{
+    background-image: url('../images/05/infog01/bt04i.png');
+    width: 307px;
+    height: 128px;
+    position: absolute;
+    top: 290px;
+    left: 52%;
+}
+.info1-bt05{
+    background-image: url('../images/05/infog01/bt05i.png');
+    width: 251px;
+    height: 103px;
+    position: absolute;
+    top: 440px;
+    left: 38%;
+}
+
+.painel-etapas{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 866px;
+    height: 505px;
+}
+.btn-etapas1, .btn-etapas2, .btn-etapas3, .btn-etapas4, .btn-etapas5{
+    width: 150px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s all ease-in-out;
+}
+.btn-etapas1:hover, .btn-etapas2:hover, .btn-etapas3:hover, .btn-etapas4:hover, .btn-etapas5:hover{
+    transform: scale(1.1);
+}
+.btn-etapas1{
+    background-image: url('../images/05/painel01/bt01p.png');
+}
+.btn-etapas2{
+    background-image: url('../images/05/painel01/bt02p.png');
+    margin-top: 100px;
+}
+.btn-etapas3{
+    background-image: url('../images/05/painel01/bt03p.png');
+    margin-top: 200px;
+}
+.btn-etapas4{
+    background-image: url('../images/05/painel01/bt04p.png');
+    margin-top: 140px;
+}
+.btn-etapas5{
+    background-image: url('../images/05/painel01/bt05p.png');
+    margin-top: 100px;
+}
+@media (max-width: 700px) {
+    .info1-bt01,.info1-bt02, .info1-bt05{
+        width: 200px;
+    }
+    .info1-bt03{
+        width: 200px;
+        top: 100px;
+    }
+    .info1-bt04{
+        width: 250px;
+        top: 200px;
+        left: 49%;
+    }
+    .info1-bt05{
+        top: 340px;
+    }
+    .painel-beneficios {
+        height: 500px;
+      }
+}

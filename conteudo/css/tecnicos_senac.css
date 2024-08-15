@@ -277,11 +277,11 @@ header.senac{
 
 .fundo-tecnicos{
 	/*background-image:url(../images/bg-content.jpg);*/
-	background-position:0;
-	background-repeat:repeat-y;
-	padding-left:60px;
-	padding-right:60px;
-	background-color:#fff;
+	/* background-position:0; */
+	/* background-repeat:repeat-y; */
+	/* padding-left:60px;
+	padding-right:60px; */
+	/* background-color:#fff; */
 	/* border-radius:50%; */
 	margin-bottom:2em;
 	border-bottom:3px solid #ccc;

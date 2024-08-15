@@ -1,4 +1,50 @@
 
+#booklet{
+  padding-left: 0;
+  padding-right: 0;
+}
+.fundo-tecnicos{
+	padding-top: 30px;
+  padding-bottom: 0px;
+}
+.bto-imprimir{
+	position: absolute;
+	top: 80px;
+	right: 100px;
+}
+.grupo-imprimir{
+	position: relative;
+}
+.bloco1{
+	background-image: url('../images/04/bg_esq.jpg'), url('../images/04/bg_dir.jpg');
+	background-repeat: no-repeat, no-repeat;
+	background-position: left top, right top;
+  	background-size: 25%;
+	background-attachment: fixed;
+
+}
+.bloco1 .container{
+	background-color: #fff;
+}
+.bloco2{
+	background: rgb(242,215,162);
+	background-image: url('../images/04/div01.png'),  linear-gradient(180deg, rgba(242,215,162,1) 0%, rgba(149,219,219,1) 100%);
+	/* background-position: 0 0, 0 0;
+	background-size: 100%, 60px, 100%, 100%; */
+	background-repeat: no-repeat;
+	/* background: linear-gradient(180deg, rgba(242,215,162,1) 0%, rgba(149,219,219,1) 100%); */
+}
+.bloco6{
+	background: #fff;
+	background-image: url('../images/04/div02.png');
+	background-repeat: no-repeat;
+
+}
+.bloco2 > .container , .bloco6 > .container,  .bloco1 > .container{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
 .iconeOlho li{
 	list-style-image: url(../images/04/marcador.png) !important;
 }

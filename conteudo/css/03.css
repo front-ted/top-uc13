@@ -1,0 +1,13 @@
+body{
+    background-image: url(../images/03/bg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.caixa-destaque{
+    background-image: url(../images/05/destaque.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: transparent;
+}
