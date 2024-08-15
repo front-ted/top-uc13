@@ -18,3 +18,7 @@ $(".fundo-item").click(function(){
     $('body').removeClass('overflow');
     $('.menu').removeClass('fade-check');
 });
+
+$(".bt_more").click(function(){
+    $(".caixa-more").toggleClass("abre");
+});

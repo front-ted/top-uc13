@@ -14,13 +14,33 @@
   .grupo-imprimir{
       position: relative;
   }
+  .imgfloat-left{
+    top: 150px;
+    width: 300px;
+    position: absolute;
+    left: 2%
+  }
+  .imgfloat-right{
+    top: 350px;
+    width: 20%;
+    position: absolute;
+    right: 0;
+  }
+   .imgfloat-right2{
+    top: 550px;
+    width: 20%;
+    position: absolute;
+    right: -2%
+  }
 .bloco2{
+    position: relative;
     background: #ffdfa6;
     background-image:  url('../images/01/div1.jpg');
     background-position:  left top;
 	background-repeat: no-repeat;
 }
 .bloco4{
+    position: relative;
     background: rgb(255,223,166);
     background: linear-gradient(180deg, rgba(255,223,166,1) 0%, rgba(224,169,70,1) 100%);
 }
@@ -108,4 +128,32 @@
 }
 .btn-lei1:hover{
     background-image: url(../images/02/bt_lei_hover.png);   
+}
+.boxmore{
+    position: relative;
+    padding-bottom: 20px;
+}
+.caixa-more{
+    height: 300px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.caixa-more.abre{
+    height: auto;
+}
+.bt_more{position: absolute; bottom: 0px; left: 0; right: 0; margin:  0 auto; transition: all 0.3s ease-in-out; cursor: pointer;}
+.bt_more:hover{
+    bottom: 10px;
+    
+}
+
+@media (max-width: 1600px) {
+    .imgfloat-right, .imgfloat-right2, .imgfloat-left{
+        width: 12%;
+    }
+}
+@media (max-width: 1300px) {
+    .imgfloat-right, .imgfloat-right2, .imgfloat-left{
+        display: none;
+    }
 }
