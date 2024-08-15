@@ -1,27 +1,61 @@
-
-.bloco2, .bloco4, .bloco6{
-    background: rgb(36,154,186);
-    background: linear-gradient(180deg, rgba(36,154,186,1) 0%, rgba(30,139,176,1) 100%);
-    color: #fff;
-}
-.bloco1{
-    background-image: url('../images/02/div1.png');
-    background-position: left bottom;
+#booklet{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .fundo-tecnicos{
+      padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .bto-imprimir{
+      position: absolute;
+      top: 80px;
+      right: 100px;
+  }
+  .grupo-imprimir{
+      position: relative;
+  }
+.bloco2{
+    background: #ffdfa6;
+    background-image:  url('../images/01/div1.jpg');
+    background-position:  left top;
 	background-repeat: no-repeat;
 }
-.bloco3, .bloco5{
-    background-image: url('../images/02/div1.png'), url('../images/02/div4.png');
+.bloco4{
+    background: rgb(255,223,166);
+    background: linear-gradient(180deg, rgba(255,223,166,1) 0%, rgba(224,169,70,1) 100%);
+}
+ .bloco6{
+    background: #E0A946;
+}
+.bloco1{
+    background-image: url('../images/01/bg1_esq.jpg');
+    background-position: left top;
+	background-repeat: no-repeat;
+    background-color: #fff;
+}
+.bloco3{
+    background-color: #FFF;
+    background-image: url('../images/01/div1.jpg'), url('../images/01/div2.jpg');
+    background-position: left bottom, left top;
+	background-repeat: no-repeat;
+}
+.bloco5{
+    background-color: #FFF;
+    background-image: url('../images/01/div5.jpg'), url('../images/01/div4.jpg');
     background-position: left bottom, left top;
 	background-repeat: no-repeat;
 }
 .bloco7{
-    background-image: url('../images/02/div4.png');
+    background-image: url('../images/02/div5.png');
     background-position:  left top;
 	background-repeat: no-repeat;
 }
 .bloco2 > .container, .bloco3 > .container, .bloco4 > .container, .bloco5 > .container, .bloco6 > .container, .bloco7 > .container,  .bloco1 > .container{
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+.bloco1 > .container{
+    background-color: #fff;
 }
 
 .gaitinha .panel.panel-default .panel-heading .panel-title a.collapsed {
