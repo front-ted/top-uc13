@@ -1,11 +1,17 @@
 html,
 body {
-    background: url('../images/refs/bg_raw.jpg');
-    background-size: cover;
+    background: url('../images/refs/bg.jpg');
+    background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
+.bto-imprimir{
+    margin: 0px 20px 20px 20px;
+}
+.refs-conteudo{
+    padding: 40px;
+    /* background-color: #fff; */
+}
 p {
     page-break-after: always;
     word-break: break-word;
