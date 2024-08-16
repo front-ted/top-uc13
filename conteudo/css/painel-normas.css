@@ -1,0 +1,114 @@
+#obj-painel-estabelecimento {
+    background: url('../images/painel.png') top left / 100% auto no-repeat;
+    max-width: 100%;
+    height: auto;
+    position: relative
+}
+.marcadorflutuante {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+}
+#obj-painel-estabelecimento::before {
+    content: "";
+    width:100%;
+    padding-top: 56.25%;
+    display: block;
+    position: relative;
+}
+
+#obj-painel-estabelecimento .botoes-menu .form-control {
+    word-break: break-all;
+    white-space: normal;
+    height: auto;
+    margin-bottom: 15px;
+}
+.marcador {
+    border-radius: 50%;
+    width: 5%;
+    height: 8.3%;
+    position: absolute;
+    background-color: #46adb1;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    border: 3px solid #e9d7a7;
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .marcador {
+        color: rgba(0,0,0,0)
+    }
+}
+.marcador::before {
+    content: "";
+    display: flex;
+    padding-top: 23%;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+.marcador::after {
+    content: attr(data-elemento);
+    display: inline-block;
+    text-align: center;
+
+}
+
+[data-elemento="1"] {
+    top: 25.6%;
+    left: 60%;
+  }
+  [data-elemento="2"] {
+    top: 53.4%;
+    left: 70%;
+  }
+  [data-elemento="3"] {
+    top: 36%;
+    left: 50%;
+  }
+  [data-elemento="4"] {
+    top: 32.1%;
+    left: 66%;
+  }
+  [data-elemento="5"] {
+    top: 45%;
+    left: 76%;
+  }
+  [data-elemento="6"] {
+    top: 23%;
+    left: 42%;
+  }
+  [data-elemento="7"] {
+    top: 62%;
+    left: 49%;
+  }
+  [data-elemento="8"] {
+    top: 72%;
+    left: 65%;
+  }
+  [data-elemento="9"] {
+    top: 37%;
+    left: 30%;
+  }
+  [data-elemento="10"] {
+    top: 80%;
+    left: 40%;
+  }
+  .botao-objeto.active {
+    background-color: #24797c !important;
+    border-color: #242424 !important
+}
+.botoes-menu h4 {
+    margin-bottom: 20px;
+}
+
+.botoes-menu button {
+    background-color: #329b9f !important;
+    border-color: #329b9f !important;
+}
