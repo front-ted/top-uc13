@@ -2,6 +2,8 @@
 body{
     background: rgb(249,220,155);
     background: linear-gradient(180deg, rgba(249,220,155,1) 0%, rgba(255,255,255,1) 100%); 
+    
+    background-attachment: fixed;
 }
 .paginas {
     background: url('../images/06/bg_dir.png') right, url('../images/06/bg_esq.png') left;
