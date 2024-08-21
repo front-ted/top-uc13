@@ -1,3 +1,8 @@
+
+body{
+    background: rgb(249,220,155);
+    background: linear-gradient(180deg, rgba(249,220,155,1) 0%, rgba(255,255,255,1) 100%); 
+}
 .paginas {
     background: url('../images/06/bg_dir.png') right, url('../images/06/bg_esq.png') left;
     background-attachment: fixed;
@@ -10,7 +15,7 @@
 }
 
 .container {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     position: relative;
     z-index: 1003;
     border-radius: 15px;
@@ -61,7 +66,7 @@
 
 .modal {
     position: fixed;
-    top: 100px;
+    /* top: 100px; */
     right: 0;
     bottom: 0;
     left: 0;

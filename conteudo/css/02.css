@@ -68,7 +68,8 @@
     width: 264px;
     height: 140px;
     background-color: transparent;
-  border: none;
+    border: none;
+    background-repeat: no-repeat;
 }
 .btn-etapa1{
     margin-right: 10px;
