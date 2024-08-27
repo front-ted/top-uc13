@@ -158,9 +158,23 @@
     }
 }
 @media (max-width: 1300px) {
-    .bloco2 > .container, .bloco3 > .container, .bloco4 > .container, .bloco5 > .container, .bloco6 > .container, .bloco7 > .container  {
+    .bloco2 > .container, .bloco4 > .container,   .bloco7 > .container  {
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
+    }
+    .bloco3 > .container{
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+    .bloco5 > .container{
+        padding-top: 20px;
+        padding-bottom: 80px;
+
+    }
+    .bloco6 > .container{
+        padding-top: 0px;
+        padding-bottom: 100px;
+
     }
 }
 

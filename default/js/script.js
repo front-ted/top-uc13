@@ -1,4 +1,4 @@
-var uc = "TOP-UC9" // aqui vai a sigla do curso e o numero da uc
+var uc = "TOP-UC95" // aqui vai a sigla do curso e o numero da uc
 
 $(document).ready(function(){
 
@@ -155,6 +155,13 @@ dragula([
 	document.getElementById('13'),
 	document.getElementById('14'),
 	document.getElementById('15'),
+	document.getElementById('16'),
+	document.getElementById('17'),
+	document.getElementById('18'),
+	document.getElementById('19'),
+	document.getElementById('20'),
+	document.getElementById('21'),
+	document.getElementById('22'),
 ])
 
 .on('drag', function(el) {
