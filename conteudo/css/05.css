@@ -1,10 +1,30 @@
 body{
-    background-image: url(../images/05/bg.png);
+    background-image: url(../images/05/bg.jpg);
     background-attachment: fixed;
     background-size: 100%;
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2,h3,h4, h5{
+	font-weight:600;
 }
 .caixa-destaque{
     background-image: url(../images/05/destaque.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: transparent;
+}
+.caixa-destaque2{
+    background-image: url(../images/03/destaque2x.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: transparent;
+}
+.caixa-destaque3{
+    background-image: url(../images/03/destaque4x.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: #fff;
@@ -33,6 +53,8 @@ body{
     height: 179px;
     background-color: transparent;
   border: none;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .btn-bt01{
     margin-right: 10px;
@@ -121,7 +143,6 @@ body{
     position: relative;
     width: 100%;
     max-width: 866px;
-    height: 505px;
 }
 .btn-etapas1, .btn-etapas2, .btn-etapas3, .btn-etapas4, .btn-etapas5{
     width: 150px;
@@ -154,6 +175,15 @@ body{
     background-image: url('../images/05/painel01/bt05p.png');
     margin-top: 100px;
 }
+.img-menor{ width: 100%; max-width: 700px !important;}
+
+@media (max-width: 768px) {
+    .caixa-destaque {
+      background-color: #0b3b4b;
+      color: #fff;
+      background-image: unset;
+    }
+}
 @media (max-width: 700px) {
     .info1-bt01,.info1-bt02, .info1-bt05{
         width: 200px;
@@ -173,4 +203,29 @@ body{
     .painel-beneficios {
         height: 500px;
       }
+}
+@media (max-width: 550px) {
+    .painel-beneficios{margin-top: 0;}
+    .img-beneficios{
+        display: none;
+    }
+    .info1-bt01, .info1-bt02, .info1-bt03, .info1-bt04, .info1-bt05{
+        min-width: 220px;
+        position: relative !important;
+        display: block;
+        margin: 0 auto;
+        top: unset !important;
+        left: unset !important;
+        right: unset !important;
+    }
+    .painel-etapas {
+        flex-wrap: wrap;
+    }
+    .btn-etapas1, .btn-etapas2, .btn-etapas3, .btn-etapas4, .btn-etapas5{
+        /* width: 150px;
+        height: 200px; */
+        background-size: 100%;
+        margin: 10px;
+    }
+
 }

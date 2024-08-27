@@ -1,7 +1,7 @@
 body{
     background-image: url(../images/03/bg.jpg);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .caixa-destaque{
@@ -10,4 +10,25 @@ body{
     background-repeat: no-repeat;
     color: #fff;
     background-color: transparent;
+}
+.caixa-destaque2{
+    background-image: url(../images/03/destaque2x.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: transparent;
+}
+.caixa-destaque3{
+    background-image: url(../images/03/destaque4x.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .caixa-destaque {
+      background-color: #0b3b4b;
+      color: #fff;
+      background-image: unset;
+    }
 }

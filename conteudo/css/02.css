@@ -1,4 +1,8 @@
 
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
 .bloco2, .bloco4, .bloco6{
     position: relative;
     background: rgb(36,154,186);
@@ -70,6 +74,7 @@
     background-color: transparent;
     border: none;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .btn-etapa1{
     margin-right: 10px;
@@ -151,5 +156,13 @@
 @media (max-width: 1300px) {
     .imgfloat-right, .imgfloat-right2, .imgfloat-left{
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-etapa1,.btn-etapa2{
+        display: block;
+        margin: 10px auto;
+
     }
 }

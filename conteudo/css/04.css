@@ -23,6 +23,14 @@
 	background-attachment: fixed;
 
 }
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.boxPdTop{
+	padding-top: 360px;
+}
 .bloco1 .container{
 	background-color: #fff;
 }
@@ -47,4 +55,11 @@
 
 .iconeOlho li{
 	list-style-image: url(../images/04/marcador.png) !important;
+}
+
+
+@media only screen and (max-width: 991px) {
+	.boxPdTop{
+		padding-top: 650px;
+	}
 }
