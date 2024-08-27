@@ -23,6 +23,7 @@
   <link href="css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
   <link href="css/aos.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="css/05.css">
+  <link rel="stylesheet" href="css/player.css">
   <link href="css/print.css" type="text/css" rel="stylesheet">
 
   <!-- relacionar colunas -->
@@ -1250,6 +1251,34 @@
             <p>Se o pagamento por boleto bancário é funcional para o cliente, ele também apresenta vantagens para o gestor, principalmente para aqueles que trabalham com serviços de recorrência, como acontece com um clube de assinaturas. Isso porque é possível que o empreendedor aplique uma régua de cobrança e, assim, envie mensagens e alertas sobre o <i>status</i> do pagamento para o cliente, uma situação que contribui muito para a diminuição da inadimplência. </p>
             <p>Conheça como isso funciona na prática: </p>
             <h1>podcast</h1>
+            <div class="bg-podcast no-print">
+              <div class="d-flex justify-content-center flex-column align-items-center">
+                  <p>Ouça o <i>podcast</i> a seguir.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="audio-player no-print">
+                      <audio>
+                          <source src="podcast/podcast_ferramentas_controle.mp3" type="audio/mpeg">
+                      </audio>
+                      <div class="row">
+                          <div class="timestamp">00:00 | 00:00</div>
+                          <div class="barra">
+                              <input type="range" value="0" max="4140" step="any">
+                          </div>
+                          <div class="botoes">
+                              <button title="Tocar" class="btn-play btn-player"></button>
+                              <button title="Pause" class="btn-pause btn-player"></button>
+                              <button title="Transcrição" data-bs-toggle="modal"
+                                  data-bs-target="#modal-transcricao-audio1"
+                                  class="btn-transcricao btn-player"></button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
         <div class="acessivel print">
 <p>Podcast Ferramentas de controle </p>
 <p>Olá, estudantes do curso Técnico em Óptica do Senac EAD. Aqui quem fala é Maressah Sampaio, eu sou jornalista e hoje a nossa pauta é ferramentas de controle. </p>
@@ -1393,11 +1422,11 @@
                   <p>
                     Dessa forma, as cores são usadas de maneira estratégica para disfarçar algumas imperfeições, como manchas de pigmentação na pele, olheiras e marcas de expressão facial. 
                   </p>
-                  <p>
-                    Ao trabalhar com visagismo e colorimetria, é possível conciliar uma harmonização que melhor se enquadre nas características do cliente e na tendência atual da moda. Dessa forma, é provável a realização de uma oferta com índice alto de satisfação, favorecendo também a fidelização dos clientes. 
-                  </p>
 
                 </div>
+                <p>
+                  Ao trabalhar com visagismo e colorimetria, é possível conciliar uma harmonização que melhor se enquadre nas características do cliente e na tendência atual da moda. Dessa forma, é provável a realização de uma oferta com índice alto de satisfação, favorecendo também a fidelização dos clientes. 
+                </p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
@@ -1620,6 +1649,27 @@
         </div>
         </div>
 
+        
+        <div class="modal fade no-print" id="modal-transcricao-audio1" tabindex="-1"
+        aria-labelledby="modal-transcricao-audio1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content no-print">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Transcrição</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis nisl, tristique et dui ac, convallis ullamcorper arcu. Ut finibus, elit eget ornare pharetra, dolor erat finibus nulla, nec efficitur sem nisi at nulla. Phasellus non pharetra tortor. Proin dictum ultrices ligula in finibus. Suspendisse id sem consectetur, venenatis ex vel, consectetur arcu. Cras vulputate quam in ultrices ornare. Donec gravida pharetra odio et ultrices.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+</div>
+
         <!--  -->
         <!-- FIM MODAIS -->
       </div>
@@ -1682,6 +1732,7 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/audio-player.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/print.js"></script>
   <script src="js/template.config.js"></script>
@@ -1700,7 +1751,7 @@
   <script>window.addEventListener('load', function () { $('.menu-toggle').click() })</script>
 
   <script>
-    $('.divisoria').parallax();
+    // $('.divisoria').parallax();
 
     //inicializa popover
     $(function () {
