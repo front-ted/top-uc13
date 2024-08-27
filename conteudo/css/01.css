@@ -158,7 +158,7 @@
     }
 }
 @media (max-width: 1300px) {
-    .bloco2 > .container, .bloco3 > .container, .bloco4 > .container, .bloco5 > .container, .bloco6 > .container, .bloco7 > .container,  .bloco1 > .container{
+    .bloco2 > .container, .bloco3 > .container, .bloco4 > .container, .bloco5 > .container, .bloco6 > .container, .bloco7 > .container  {
         padding-top: 20px;
         padding-bottom: 20px;
     }

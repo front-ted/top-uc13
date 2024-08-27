@@ -3,6 +3,10 @@
     padding-left: 0;
     padding-right: 0;
 }
+.bto-imprimir{
+    position: absolute;
+    right: 50px;
+}
 .bloco2, .bloco4, .bloco6{
     position: relative;
     background: rgb(36,154,186);
@@ -24,11 +28,18 @@
     background-position:  left top;
 	background-repeat: no-repeat;
 }
-.bloco2 > .container, .bloco3 > .container, .bloco4 > .container, .bloco5 > .container, .bloco6 > .container, .bloco7 > .container,  .bloco1 > .container{
+.bloco2 > .container, .bloco3 > .container, .bloco4 > .container, .bloco5 > .container, .bloco6 > .container, .bloco7 > .container{
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-
+.bloco2 > .container{
+	padding-top: 0px;
+	padding-bottom: 100px;
+}
+.bloco1 > .container{
+    padding-top: 30px;
+	padding-bottom: 100px;
+}
 .imgfloat-left{
     top: 150px;
     width: 300px;
