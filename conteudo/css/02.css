@@ -176,4 +176,22 @@
         margin: 10px auto;
 
     }
+    .bloco3 > .container, .bloco4 > .container,  .bloco6 > .container, .bloco7 > .container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bloco2 > .container, .bloco1 > .container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bloco5 > .container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .bloco1,
+    .bloco3, .bloco5,
+    .bloco7{
+        background-image: unset;
+    }
 }

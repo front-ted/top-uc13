@@ -31,4 +31,12 @@ body{
       color: #fff;
       background-image: unset;
     }
+    .video-player {
+        width: 100%;
+        max-width: 500px;
+    }
+    .video-player iframe{
+        width: 100%;
+        max-width: 500px;
+    }
 }
