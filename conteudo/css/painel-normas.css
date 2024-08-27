@@ -23,7 +23,9 @@
     word-break: break-all;
     white-space: normal;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
+    hyphens: auto;
+    padding: 6px 40px;
 }
 .marcador {
     border-radius: 50%;
