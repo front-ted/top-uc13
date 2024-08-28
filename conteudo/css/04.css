@@ -62,11 +62,26 @@ sup {
 .iconeOlho li{
 	list-style-image: url(../images/04/marcador.png) !important;
 }
-
+.obj-painel-mob{
+	display: none;
+}
+.obj-painel-mob .senac{
+	width: 100% !important;
+}
 
 .imgvig{max-width: 250px !important;}
 @media only screen and (max-width: 991px) {
 	.boxPdTop{
 		padding-top: 650px;
 	}
+}
+
+@media only screen and (max-width: 450px) {
+	.obj-painel-mob{
+		display: block;
+	}
+	#obj-painel-estabelecimento, .boxPdTop{
+		display: none;
+	}
+	
 }
