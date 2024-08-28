@@ -157,7 +157,58 @@ h2,h3,h4, h5{
     transform: scale(1.1);
 }
 .btn-etapas1{
+
     background-image: url('../images/05/painel01/bt01p.png');
+}
+.btn-etapas1:after{
+  background-image: url('../images/05/painel01/f04.png');
+  background-repeat: no-repeat;
+  content: "";
+  width: 95px;
+  height: 54px;
+  display: block;
+  position: relative;
+  margin-left: 117px;
+  top: -76px;
+  background-size: 100%;
+}
+.btn-etapas2:after{
+  background-image: url('../images/05/painel01/f03.png');
+  background-repeat: no-repeat;
+  content: "";
+  width: 86px;
+  height: 105px;
+  display: block;
+  position: relative;
+  margin-left: 17px;
+  top: 101px;
+  background-size: 100%;
+}
+.btn-etapas3:after{
+  background-image: url('../images/05/painel01/f01.png');
+  background-repeat: no-repeat;
+  content: "";
+  width: 122px;
+  height: 58px;
+  display: block;
+  position: relative;
+  margin-left: 49px;
+  top: -155px;
+  background-size: 100%;
+  transform: rotate(-21deg);
+}
+.btn-etapas4:after{
+  background-image: url('../images/05/painel01/f02.png');
+  background-repeat: no-repeat;
+  content: "";
+  width: 96px;
+  height: 108px;
+  display: block;
+  position: relative;
+  margin-left: 117px;
+  top: 102px;
+  background-size: 100%;
+  transform: rotate(17deg);
 }
 .btn-etapas2{
     background-image: url('../images/05/painel01/bt02p.png');
@@ -190,6 +241,26 @@ h2,h3,h4, h5{
     }
 }
 @media (max-width: 700px) {
+    
+    .info1-bt01, .info1-bt02, .info1-bt03, .info1-bt04, .info1-bt05{
+        min-width: 220px;
+        position: relative !important;
+        display: block;
+        margin: 0 auto;
+        top: unset !important;
+        left: unset !important;
+        right: unset !important;
+    }
+    .painel-etapas {
+        flex-wrap: wrap;
+    }
+    .btn-etapas1, .btn-etapas2, .btn-etapas3, .btn-etapas4, .btn-etapas5{
+        /* width: 150px;
+        height: 200px; */
+        background-size: 100%;
+        margin: 10px;
+    }
+    .btn-etapas1:after,.btn-etapas2:after, .btn-etapas3:after, .btn-etapas4:after{ background-image: unset;}
     .info1-bt01,.info1-bt02, .info1-bt05{
         width: 200px;
     }
@@ -213,24 +284,6 @@ h2,h3,h4, h5{
     .painel-beneficios{margin-top: 0;}
     .img-beneficios{
         display: none;
-    }
-    .info1-bt01, .info1-bt02, .info1-bt03, .info1-bt04, .info1-bt05{
-        min-width: 220px;
-        position: relative !important;
-        display: block;
-        margin: 0 auto;
-        top: unset !important;
-        left: unset !important;
-        right: unset !important;
-    }
-    .painel-etapas {
-        flex-wrap: wrap;
-    }
-    .btn-etapas1, .btn-etapas2, .btn-etapas3, .btn-etapas4, .btn-etapas5{
-        /* width: 150px;
-        height: 200px; */
-        background-size: 100%;
-        margin: 10px;
     }
 
 }
