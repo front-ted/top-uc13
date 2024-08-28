@@ -64,6 +64,7 @@ sup {
 }
 
 
+.imgvig{max-width: 250px !important;}
 @media only screen and (max-width: 991px) {
 	.boxPdTop{
 		padding-top: 650px;
